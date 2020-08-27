@@ -103,6 +103,8 @@ The tidy dataset has 180 observations and 81 variables. The variable names are t
 [80] "FrequencyDomain_BodyBodyGyroscopeJerkMagnitude_std"         
 [81] "FrequencyDomain_BodyBodyGyroscopeJerkMagnitude_meanFreq"
 
+Part of the data is spread over time and part over frequency. There are body and gravity measures, as well as measures from the accelerometer and the gyroscope. Magnitude and jerk were calculate too. X, Y, and Z are the dimensions of the 3-dimensional (wave) data. 
+
 Steps for analysis:
 File is downloaded and unzipped.
 Files mentioned above are read separetely.
