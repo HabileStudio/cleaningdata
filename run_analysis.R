@@ -37,7 +37,6 @@ data.sub <- data.all[,c(1,2,mean_std.select + 2)]
 ## Names the activities using the activities labels.
 activity.labels <- read.table('./UCI HAR Dataset/activity_labels.txt', header = FALSE)
 activity.labels <- as.character(activity.labels[,2])
-data.sub$activity <- activity.labels[data.sub$activity]
 
 ## Renames the variables.
 name.new <- names(data.sub)
